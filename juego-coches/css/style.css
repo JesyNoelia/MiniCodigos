@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.monza {
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #444;
+}
+
+.monza .carril {
+    height: 100px;
+    width: 100%;
+    padding: 25px 0px;
+    border-bottom: 2px dotted white;
+}
+
+.monza .carril .coche {
+    width: 100px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.monza .carril #coche1 {
+    background-color: tomato;
+}
+
+.monza .carril #coche2 {
+    background-color: beige;
+}
+
+.monza .carril #coche3 {
+    background-color: lightblue;
+}
+
+.meta {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    position: absolute;
+    background-color: yellow;
+    text-align: center;
+    right: 0px;
+    top: 140px;
+    transform: rotateZ(90deg);
+}
+
+#mensaje {
+    text-align: center;
+}
