@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: lightslategrey;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+form{
+    padding: 20px;
+
+}
+form label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+form input {
+    border: 1 px solid black;
+    padding: 10px;
+    width: 100%;
+}
+section{
+    background-color: beige;
+    height: 100vh;
+
+}
+section .flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+section .flex article{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 1px 1px 15px lightslategray;
+    margin: 20px;
+    width: 200px;
+}
